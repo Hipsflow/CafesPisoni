@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header-box{
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    justify-content: flex-start;
+    color: aliceblue;
+    height: fit-content;
+    align-items: center;
+}
+.header-links{
+    height: 42px;
+    list-style-type:none;
+    margin: 5px 0px 0px 0px;    
+    float: right;
+    font-size: 30px;
+    text-shadow: 0.5px 1.8px grey;
+}
+.page-title{
+    padding-left: 10px;
+    font-size: 36px;
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 0.5px 1.5px grey;
+}
+.main-intro{
+    height: 200px;
+    background-image: url("../scr/imgs/introBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 9px;
+}
+.intro-box{
+    max-width: 180px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+}
+.intro-text{
+    padding: 3px;
+    text-align: center;
+    margin: 0px;
+}
