@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(17, 17, 17);
 }
 .header-box{
     background-color: rgb(17, 17, 17);
@@ -46,4 +47,82 @@ body{
     padding: 3px;
     text-align: center;
     margin: 0px;
+}
+.fade{
+ padding: 40px 0px;
+}
+.slide1{
+    margin: 0 auto;
+    width: auto;
+    height: 400px;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+}
+.slide2{
+    margin: 0 auto;
+    width: auto;
+    height: 400px;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+}
+.slide3{
+    margin: 0 auto;
+    width: auto;
+    height: 400px;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+}
+.quote1{
+    height: fit-content;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    border-bottom-right-radius: 35%;
+    margin: 5px 10px 0px 0px;
+    box-shadow: rgba(48, 46, 46, 0.3) 0px 19px 38px, rgba(211, 195, 195, 0.22) 0px 15px 12px;
+    padding: 10px;
+}
+.circle1{
+    box-shadow: rgba(48, 46, 46, 0.3) 0px 19px 38px, rgba(211, 195, 195, 0.22) 0px 15px 12px;
+    box-sizing: border-box;
+    padding: 5em;
+    width: 30em;
+    height: fit-content;
+    border-top-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+}
+
+.circle-image1{
+    border: 0.5em solid black;
+    width: 20em;
+    height: auto;
+    border-radius: 100%;
+}
+.quote2{
+    height: fit-content;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    border-top-left-radius: 35%;
+    margin: 15px 0px 0px 10px;
+    box-shadow: rgba(48, 46, 46, 0.3) 0px 19px 38px, rgba(211, 195, 195, 0.22) 0px 15px 12px;
+    padding: 10px;
+}
+.circle2{
+    box-shadow: rgba(48, 46, 46, 0.3) 0px 19px 38px, rgba(211, 195, 195, 0.22) 0px 15px 12px;
+    box-sizing: border-box;
+    padding: 5em;
+    width: 30em;
+    height: fit-content;
+    border-bottom-right-radius: 35%;
+    border-top-left-radius: 35%;
+}
+
+.circle-image2{
+    border: 0.5em solid black;
+    width: 20em;
+    height: auto;
+    border-radius: 100%;
 }

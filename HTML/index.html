@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
-    <link rel="script" type="text/javascript" href="../JavaScript/script.js"/>
-    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css"/>
+
+    <script src="../JavaScript/script.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css" />
     <link rel="stylesheet" type="text/css" href="../CSS/style.css">
     <title>CaféPisoni</title>
 </head>
@@ -29,22 +31,57 @@
     <main>
         <div class="main-intro">
             <div class="intro-box">
-                <p class="intro-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa laborum doloribus, enim similique aut
-                    accusantium, aliquid quae expedita nihil iure eius. Eveniet repudiandae asperiores modi iure illum, nam
+                <p class="intro-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa laborum doloribus,
+                    enim similique aut
+                    accusantium, aliquid quae expedita nihil iure eius. Eveniet repudiandae asperiores modi iure illum,
+                    nam
                     ducimus eos.</p>
             </div>
         </div>
         <section>
-            <div class="carousel">
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-              </div>
+            <div class="fade" id="fade">
+                <div>
+                    <img class="slide1" src="../scr/imgs/um.jpg" alt="">
+                </div>
+                <div>
+                    <img class="slide2" src="../scr/imgs/dois.png" alt="">
+                </div>
+                <div>
+                    <img class="slide3" src="../scr/imgs/tres.jpeg" alt="">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="quote1">
+                <div class="circle1">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati et fuga itaque ad nobis
+                        libero commodi officia! Illo, officia praesentium nulla impedit neque a maxime dolor facilis ea
+                        eligendi perspiciatis?</p>
+                </div>
+                <img class="circle-image1" src="../scr/imgs/tres.jpeg" alt="">
+            </div>
+            <div class="quote2">
+                <img class="circle-image2" src="../scr/imgs/dois.png" alt="">
+                <div class="circle2">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati et fuga itaque ad nobis
+                        libero commodi officia! Illo, officia praesentium nulla impedit neque a maxime dolor facilis ea
+                        eligendi perspiciatis?</p>
+                </div>
+            </div>
         </section>
     </main>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>        
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $('.fade').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 3000,
+        });
+    </script>
 </body>
 
 </html>
