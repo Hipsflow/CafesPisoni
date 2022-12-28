@@ -1,0 +1,146 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+ul, li, p {
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+.content-intro {
+    background-image: url("../imgs/background-coffe-light.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+    width: auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+.intro {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.fade {
+    margin: 100px 0;
+    align-items: center;
+    width: 450px;
+    height: 250px;
+}
+
+.content-window {
+    background: linear-gradient(to bottom, #ffffff -200%, #ccccff 110%);
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 5%;
+    margin-bottom: 2%;
+}
+
+.content-window h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.8rem;
+    text-align: center;
+    margin: 5px;
+}
+
+.content-window p {
+    font-family: 'Lora', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+}
+.content-window a {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    font-size: 2.0rem;
+    border: 5px solid black;
+    border-style: double;
+    padding: 5px;
+}
+.about {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px 0;
+}
+.about-content  div{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin: 0 5px;
+    background: linear-gradient(to bottom, #ffffff -200%, #ccccff 110%);
+    border-radius: 15px;
+    box-shadow: 3px 3px rgba(128, 128, 128, 0.525);
+}
+.slogan-content {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.slogan h1{
+    font-family: 'Great Vibes', cursive;
+    color: lightgoldenrodyellow;
+    font-size: 3.0rem;
+    padding: 0;
+    margin: 0;
+}
+.slogan h2{
+    font-family: 'Lora', serif;
+    font-size: 3.0rem;
+    padding: 0;
+    margin: 0;
+}
+.slogan p{
+    font-family: 'Lora', serif;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
