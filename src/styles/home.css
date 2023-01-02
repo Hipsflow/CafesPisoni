@@ -129,27 +129,30 @@ img {
 .market-place {
     background-color: #996633;
 }
-.markt-content {
+.market-place h2 {
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    padding-top: 15px;
+    font-family: 'Lora', serif;
+    font-size: 2.5rem;
+    color: white;
 }
-.slick-slide {
+.market-place .slick-slide {
     margin: 0 15px;
     border: 2px solid #372412;
     text-align: center;
     position: relative;
     background-color: white;
 }
-.slick-slide p{
+.market-place .slick-slide p{
     font-size: 1.5em;
     font-weight: 300;
     padding: 0 0 0 5px;
 }
-.slick-slide img{
+.market-place .slick-slide img{
     width: 100%;
 }
-.slick-slide a{
+.market-place .slick-slide a{
     display: inline-block;
     width: 175px;
     padding: 12px;

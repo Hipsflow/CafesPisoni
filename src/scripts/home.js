@@ -11,7 +11,7 @@ $('.fade').slick({
   $('.market-slider').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
-    infinite: false,
+    infinite: true,
     arrows: false,
     autoplay: true,
     dots: true,
