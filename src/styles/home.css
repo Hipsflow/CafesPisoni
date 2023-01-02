@@ -2,6 +2,7 @@ body {
     margin: 0%;
     padding: 0%;
     background-color: black;
+    overflow:auto;
 }
 ul, li, p {
     list-style: none;
@@ -9,17 +10,14 @@ ul, li, p {
     font-family: Arial;
     color: black;
 }
-
 a {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-
 h1 {
     text-align: center;
     margin-top: 100px;
 }
-
 img {
     max-width: 100%;
     display: block;
@@ -42,29 +40,24 @@ img {
 .menu {
     display: flex;
 }
-
 .menu li {
     margin-left: 10px;
 }
-
 .menu li a {
     display: block;
     padding: 10px;
 }
-
 .intro {
     height: fit-content;
     display: flex;
     justify-content: center;
 }
-
 .fade {
     margin: 100px 0;
     align-items: center;
     width: 450px;
     height: 250px;
 }
-
 .content-window {
     background: linear-gradient(to bottom, #ffffff -200%, #ccccff 110%);
     display: flex;
@@ -73,14 +66,12 @@ img {
     border-radius: 5%;
     margin-bottom: 2%;
 }
-
 .content-window h3 {
     font-family: 'Great Vibes', cursive;
     font-size: 3.8rem;
     text-align: center;
     margin: 5px;
 }
-
 .content-window p {
     font-family: 'Lora', serif;
     font-size: 1.5rem;
@@ -95,27 +86,6 @@ img {
     border: 5px solid black;
     border-style: double;
     padding: 5px;
-}
-.about {
-    margin: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.about-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 15px 0;
-}
-.about-content  div{
-    height: fit-content;
-    display: flex;
-    flex-direction: row;
-    margin: 0 5px;
-    background: linear-gradient(to bottom, #ffffff -200%, #ccccff 110%);
-    border-radius: 15px;
-    box-shadow: 3px 3px rgba(128, 128, 128, 0.525);
 }
 .slogan-content {
     display: flex;
@@ -140,7 +110,52 @@ img {
 }
 .slogan p{
     font-family: 'Lora', serif;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     padding: 0;
     margin: 0;
+    color: white;
 }
+.about {
+    margin: 25px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-content {
+    display: flex;
+    margin: 15px 0px;
+    justify-content: space-evenly;
+}
+.market-place {
+    background-color: #996633;
+}
+.markt-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.slick-slide {
+    margin: 0 15px;
+    border: 2px solid #372412;
+    text-align: center;
+    position: relative;
+    background-color: white;
+}
+.slick-slide p{
+    font-size: 1.5em;
+    font-weight: 300;
+    padding: 0 0 0 5px;
+}
+.slick-slide img{
+    width: 100%;
+}
+.slick-slide a{
+    display: inline-block;
+    width: 175px;
+    padding: 12px;
+    margin-bottom: 5px;
+    background-color: #372412;
+    border-radius: 5%;
+    color: #ffffff;
+}
+

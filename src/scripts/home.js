@@ -8,3 +8,12 @@ $('.fade').slick({
     arrows: false,
     autoplay: true,
   });
+  $('.market-slider').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    infinite: false,
+    arrows: false,
+    autoplay: true,
+    dots: true,
+    speed: 400,
+  });
