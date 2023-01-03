@@ -180,7 +180,7 @@ img {
     justify-content: space-evenly;
 }
 .about-plant img{
-    width: 40%;
+    width: 680px;
     justify-content: flex-start;
     border-radius: 75px 0 0 0;
 }
@@ -191,7 +191,7 @@ img {
     background-color: #ffffff;
     margin: 0;
     text-align: center;
-    padding-top: 190px;
+    padding-top: 5%;
     border-radius: 0 0 75px 0;
 }
 .about-farm {
@@ -201,7 +201,7 @@ img {
     justify-content: space-evenly;
 }
 .about-farm img{
-    width: 40%;
+    width: 680px;
     justify-content: flex-start;
     border-radius: 0 75px 0 0;
 }
@@ -212,6 +212,33 @@ img {
     background-color: #ffffff;
     margin: 0;
     text-align: center;
-    padding-top: 190px;
+    padding-top: 5%;
     border-radius: 0 0 0 75px;
+}
+footer {
+    background-color: #372412;
+    padding: 20px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+.footer-content p {
+    justify-content: flex-end;
+    color: white;
+}
+.menu {
+    display: flex;
+}
+.menu li {
+    margin-left: 10px;
+}
+.menu li a {
+    color: #ffffff;
+    display: block;
+    padding: 10px;
 }
